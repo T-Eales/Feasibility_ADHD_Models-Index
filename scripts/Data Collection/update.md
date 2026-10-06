@@ -39,3 +39,5 @@ The new notebook:
 12. Splits passages 58:17:25 (development:calibration:test) by provider, so no provider appears in more than one set. Identical passages found in more than one set are kept in development only, and the split is frozen once saved.
 13. Creates the rater coding sheets (Stage 1: a random third of development; Stage 2: the test set) with drop-down lists so only valid codes can be entered.
 14. Saves an audit summary with all the counts needed for the Method.
+
+**Test data removed (6 Oct 2026):** The dummy corpus from the web scraper test (unrelated gaming websites) was originally committed so the test output could be seen. It has now been removed because it contained full text copied from third-party websites, and a `.gitignore` has been added so no data files are committed in future. All data for the study will be kept in the restricted University folder.
