@@ -15,6 +15,24 @@ data/coded/**
 !data/manifest.csv
 *.xlsx
 
+# Scraper and notebook outputs - never commit data
+dummy_corpus.csv
+dissertation_corpus.csv
+cleaned_corpus.csv
+candidate_pool.csv
+test_candidate_pool.csv
+sampling_log.csv
+test_sampling_log.csv
+pdfs/
+test_pdfs/
+screening.xlsx
+provider_key.csv
+passage_split.csv
+passages_removed_by_keyword_filter.csv
+personal_info_check.csv
+rater_stage*.xlsx
+audit_summary.csv
+
 # Python
 __pycache__/
 *.pyc
